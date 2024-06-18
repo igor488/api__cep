@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Consulta de Cep</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="menu_container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#" id="active">Consulta</a></li>
+            <li><a href="#">Suporte</a></li>
+        </ul>
+    </header>
+
+    <h1 id="title">Consulta de Cep</h1>
+    <p id="describe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus voluptatibus culpa! Eos rem quos ut quibusdam, voluptate numquam sequi aperiam?</p>
+
+    <div class="consulta_container">
+        <h2 class="consulta_title">Consulta</h2>
+        <div class="consulta_content">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+
+            <label for="cep">Cep</label>
+            <input type="text" id="cep">
+
+            <label for="cpf">Cpf</label>
+            <input type="text" id="cpf">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco">
+
+            <input type="button" id="btnConsultar" value="Consultar">
+        </div>
+    </div>
+
+    <div id="mapLinkContainer" style="display:none;">
+        <a id="mapLink" href="#" target="_blank">Abrir no Google Maps</a>
+    </div>
+
+    <script src="assets/js/scripit.js"></script>
+</body>
+</html>
